@@ -1,0 +1,8 @@
+{
+  "short_name": "react-sm-login-modal",
+  "name": "react-sm-login-modal",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
