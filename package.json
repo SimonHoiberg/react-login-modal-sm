@@ -5,7 +5,7 @@
   "author": "Silind",
   "license": "ISC",
   "repository": "Silind/react-login-modal-sm",
-  "main": "dist/index.js",
+  "main": "dist/index",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
   "scripts": {
