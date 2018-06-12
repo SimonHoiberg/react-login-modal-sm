@@ -8,7 +8,7 @@ As can varies options for text and behavior.
 
 ### Install
 ```sh
-npm i react-sm-login-modal
+npm i react-login-modal-sm
 ```
 
 ### Run example
@@ -18,7 +18,7 @@ npm run example
 ```
 
 ## :mag_right: Preview
-![image](https://github.com/Silind/react-sm-login-modal/blob/master/preview.png)
+![image](https://github.com/Silind/react-login-modal-sm/blob/master/preview.png)
 
 ## :memo: Documentation
 
@@ -103,7 +103,7 @@ export default class App extends Component {
 
     return (
       <div className="App">
-        <h1>react-sm-login-modal example</h1>
+        <h1>react-login-modal-sm example</h1>
 
         <LoginModal
           showModal={this.state.showModal}

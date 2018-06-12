@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import LoginModal from "react-sm-login-modal";
+import LoginModal from "react-login-modal-sm";
 
 class App extends Component {
   state = {
@@ -25,7 +25,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>react-sm-login-modal example</h1>
+        <h1>react-login-modal-sm example</h1>
 
         <LoginModal
           showModal={this.state.showModal}
