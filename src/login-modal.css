@@ -1,0 +1,203 @@
+.bgMatte {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #444;
+  z-index: 100;
+  opacity: 0.7; }
+
+.center {
+  margin: 0 auto 0 auto; }
+
+.logInHolder {
+  width: 90%;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 8px #222;
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 200;
+  overflow: hidden;
+  padding-left: 40px;
+  padding-right: 40px; }
+  @media (min-width: 768px) {
+    .logInHolder {
+      width: 500px;
+      margin: 0; } }
+
+.logInHolder a {
+  text-decoration: none;
+  color: #000; }
+  .logInHolder a:hover {
+    color: #000; }
+
+.floatRight {
+  float: right; }
+
+.floatLeft {
+  float: left; }
+
+.logInHolder h1 {
+  font-size: 20px;
+  color: #444;
+  text-align: left; }
+
+.logInTopRow {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px; }
+
+.logInCloseBtn {
+  cursor: pointer;
+  color: #999;
+  transition: opacity 0.3s;
+  margin-right: -35px; }
+
+.logInCloseBtnHover {
+  opacity: 0.8; }
+
+.loginForm {
+  width: 100%; }
+
+.submitForm {
+  width: 100%; }
+
+.forgotForm {
+  width: 100%; }
+
+.loginBtn {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px #666;
+  opacity: 1;
+  transition: all 0.3s;
+  font-weight: bold; }
+  .loginBtn:hover {
+    box-shadow: 0 4px 6px #666;
+    opacity: 0.9; }
+
+.disabled {
+  cursor: default;
+  opacity: 0.7; }
+  .disabled:hover {
+    box-shadow: 0 2px 4px #666;
+    opacity: 0.7; }
+
+.facebookBtnLogo {
+  width: 50px;
+  height: 50px;
+  background-image: url(../graphics/facebook-icon.svg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px 0 0 5px;
+  float: left; }
+
+.googleBtnLogo {
+  width: 50px;
+  height: 50px;
+  background-image: url(../graphics/gplus-icon.svg);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px 0 0 5px;
+  float: left; }
+
+.emailBtnLogo {
+  width: 50px;
+  height: 50px;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px 0 0 5px;
+  float: left;
+  text-align: center; }
+
+.emailLogo {
+  color: #E2DBE2;
+  font-size: 30px;
+  transform: rotate(90deg);
+  line-height: 50px; }
+
+.lineTextHolder {
+  width: 100%;
+  height: 20px;
+  margin-top: 30px; }
+
+.lineTextLine {
+  width: 100%;
+  height: 11px;
+  border-bottom: 1px solid #a0a0a0; }
+
+.lineTextText {
+  width: 60px;
+  height: 20px;
+  background-color: #f8f8f8;
+  color: #a0a0a0;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: -10px; }
+
+.loginInput {
+  width: 100%;
+  height: 40px;
+  background-color: #e6e7f2;
+  border-top: 1px solid #afb6bc;
+  border-left: 1px solid #d4d8db;
+  border-right: 1px solid #d4d8db;
+  border-bottom: 1px solid #d4d8db;
+  color: #474747;
+  font-size: 13px;
+  padding: 10px;
+  outline: none;
+  margin-top: 10px; }
+
+.loginLinksHolder {
+  width: 100%;
+  height: 20px; }
+
+.loginLinks {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  text-decoration: underline;
+  float: left;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-size: 14px; }
+
+.facebookBtnBg {
+  background-color: #4299E6; }
+
+.facebookBtnLogoBg {
+  background-color: #3B89CF; }
+
+.googleBtnBg {
+  background-color: #DB4437; }
+
+.googleBtnLogoBg {
+  background-color: #c93c32; }
+
+.emailBtnBg {
+  background-color: #6B6861; }
+
+.emailBtnLogoBg {
+  background-color: #484642; }
+
+.loginLinksCol {
+  color: #1e76c9; }
+
+.loginLinksCol:hover {
+  color: #4ab268; }
+
+/*# sourceMappingURL=login-modal.css.map */

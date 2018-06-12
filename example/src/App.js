@@ -1,13 +1,27 @@
 import React, { Component } from 'react'
+import LoginModal from 'react-sm-login-modal'
 
-import ExampleComponent from 'react-sm-login-modal'
+class App extends Component {
+  state = {
+    showModal: false,
+  }
 
-export default class App extends Component {
-  render () {
+  showModal = () => {
+    this.setState({ showModal: !this.state.showModal });
+  }
+
+  render() {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
+      <div className="App">
+        <LoginModal 
+          showModal={this.state.showModal}
+          toggleModal={this.showModal}
+          onSignupEmail={this.signupMail}
+        />
+        <div className="test-btn" onClick={this.showModal} />
       </div>
-    )
+    );
   }
 }
+
+export default App;

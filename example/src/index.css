@@ -3,3 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.test-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #222;
+}
