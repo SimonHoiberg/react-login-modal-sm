@@ -51,20 +51,20 @@ export default class SignupForm extends Component {
 
   onSignupFacebook = () => {
     if (this.props.onSignupFacebook === undefined)
-      console.log("No Facebook signup function found");
+      console.warn("No function found: Pass a function as props; onSignupFacebook");
     else this.props.onSignupFacebook();
   };
 
   onSignupGoogle = () => {
     if (this.props.onSignupGoogle === undefined)
-      console.log("No Google signup function found");
+      console.warn("No function found: Pass a function as props; onSignupGoogle");
     else this.props.onSignupGoogle();
   };
 
   onSignupEmail = () => {
     if (!this.inputValidation()) return;
     if (this.props.onSignupEmail === undefined)
-      console.log("No Email signup function found");
+      console.warn("No function found: Pass a function as props; onSignupEmail");
     else
       this.props.onSignupEmail(
         this.state.email,
@@ -134,7 +134,7 @@ export default class SignupForm extends Component {
           name="submit_inp_brugernavn"
           id="submit_inp_brugernavn"
           className={styles.loginInput}
-          onChange={this.onUsernameInptChange}
+          onChange={this.onUsernameInputChange}
           onFocus={this.onUsernameFocus(true)}
           onBlur={this.onUsernameFocus(false)}
           value={this.state.username}

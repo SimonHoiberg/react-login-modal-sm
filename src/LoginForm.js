@@ -39,20 +39,20 @@ export default class LoginForm extends Component {
 
   onLoginFacebook = () => {
     if (this.props.onLoginFacebook === undefined)
-      console.log("No Facebook login function found");
+      console.warn("No function found: Pass a function as props; onLoginFacebook");
     else this.props.onLoginFacebook();
   };
 
   onLoginGoogle = () => {
     if (this.props.onLoginGoogle === undefined)
-      console.log("No Google login function found");
+      console.warn("No function found: Pass a function as props; onLoginGoogle");
     else this.props.onLoginGoogle();
   };
 
   onLoginEmail = () => {
     if (!this.inputValidation()) return;
     if (this.props.onLoginEmail === undefined)
-      console.log("No Email login function found");
+      console.warn("No function found: Pass a function as props; onLoginEmail");
     else this.props.onLoginEmail(this.state.email, this.state.password);
   };
 

@@ -24,7 +24,7 @@ export default class ForgotForm extends Component {
   onForgotPassword = () => {
     if (!this.inputValidation()) return;
     if (this.props.onForgotPassword === undefined)
-      console.log("No forgot-password function found");
+      console.warn("No function found: Pass a function as props; onForgotPassword");
     else this.props.onForgotPassword(this.state.email);
   }
 
