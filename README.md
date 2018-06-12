@@ -4,6 +4,10 @@ A lightweight, customizable react component log-in modal including social media 
 No functionality is applied. Functions for click events can be passed via props.
 As can varies options for text and behavior.
 
+## :mag_right: Preview
+![image](https://raw.githubusercontent.com/Silind/react-login-modal-sm/master/preview.png)
+
+
 ## :cloud: Installation
 
 ### Install
@@ -18,17 +22,22 @@ npm run example
 ```
 
 ### Bootstrap and Google Icons
-#### In your public index.html file put
+#### Put following tags in your public index.html file's header section
+
 ```html
 <!-- Google Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <!-- Bootstrap -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 ```
 
-## :mag_right: Preview
-![image](https://raw.githubusercontent.com/Silind/react-login-modal-sm/master/preview.png)
+### Import and use component
+```jsx
+import LoginModal from "react-login-modal-sm";
+
+<LoginModal showModal={true} />
+```
 
 ## :memo: Documentation
 
@@ -87,7 +96,7 @@ npm run example
 
 ```jsx
 import React, { Component } from "react";
-import LoginModal from "react-sm-login-modal";
+import LoginModal from "react-login-modal-sm";
 
 export default class App extends Component {
   state = {
