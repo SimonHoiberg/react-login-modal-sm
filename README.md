@@ -6,9 +6,14 @@ As can varies options for text and behavior.
 
 ## :cloud: Installation
 
+### Install
 ```sh
-# Using npm
 npm i react-sm-login-modal
+```
+
+### Run example
+```sh
+npm run example
 ```
 
 ## :mag_right: Preview
@@ -21,7 +26,7 @@ npm i react-sm-login-modal
 |-----------|-------------|
 | `showModal` | Boolean that determines whether the modal is visible or hidden |
 
-### Functions that is be passed via props
+### Functions that is passed via props
 | Prop name | Description |
 |-----------|-------------|
 | `toggleModal` | Show / hide the modal. When user click the 'x' button or clicks the overlay-background |
@@ -46,7 +51,7 @@ npm i react-sm-login-modal
 | `labels` | Optional labels. Must be passed as an entire object |
 #### Default
 ```js
-labels={
+{
   loginTitle: "Log in",
   signupTitle: "Create new user",
   forgotHeader: "Reset password",
