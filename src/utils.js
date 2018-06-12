@@ -3,7 +3,7 @@ export const labels = {
   signupTitle: "Create new user",
   forgotHeader: "Reset password",
   loginFacebookButton: "Log in with Facebook",
-  loginGoogleButton: "Log ind with Google",
+  loginGoogleButton: "Log in with Google",
   loginEmailButton: "Log in with email",
   signupFacebookButton: "Sign up with Facebook",
   signupGoogleButton: "Sign up with Google",

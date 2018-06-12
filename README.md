@@ -8,7 +8,7 @@ npm i react-sm-login-modal
 ```
 
 ## :mag_right: Preview
-[!image](https://github.com/Silind/react-sm-login-modal/blob/master/preview.png)
+![image](https://github.com/Silind/react-sm-login-modal/blob/master/preview.png)
 
 ## :memo: Documentation
 
