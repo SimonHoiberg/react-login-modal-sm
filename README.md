@@ -112,7 +112,7 @@ export default class App extends Component {
     console.log("Login with Facebook...");
   };
 
-  handleSignupByEmail = () => {
+  handleSignupByEmail = (email, username, password) => {
     // Do something when 'Signup by email' is clicked
     console.log("Sign up by email...");
   };
