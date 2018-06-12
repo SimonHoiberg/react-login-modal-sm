@@ -4,7 +4,7 @@
   "description": "Customizable React Social Media login modal",
   "author": "Silind",
   "license": "ISC",
-  "repository": "Silind/react-sm-login-modal",
+  "repository": "Silind/react-login-modal-sm",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
