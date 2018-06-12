@@ -16,9 +16,15 @@ npm i react-sm-login-modal
 
 ## :memo: Documentation
 
-### Functions that can be passed via props
+### Constant that is passed via props
 | Prop name | Description |
 |-----------|-------------|
+| `showModal` | Boolean that determines whether the modal is visible or hidden |
+
+### Functions that is be passed via props
+| Prop name | Description |
+|-----------|-------------|
+| `toggleModal` | Show / hide the modal. When user click the 'x' button or clicks the overlay-background |
 | `onLoginFacebook` | When user clicks on 'log in with Facebook' button |
 | `onLoginGoogle` | When user clicks on 'log in with Google' button |
 | `onLoginEmail` | When user clicks on 'log in with email' button. Passes (email, password) as parameters |
@@ -63,7 +69,7 @@ labels={
 
 ## :clipboard: Example
 
-```js
+```jsx
 import React, { Component } from "react";
 import LoginModal from "react-sm-login-modal";
 
