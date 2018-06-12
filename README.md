@@ -18,7 +18,7 @@ npm run example
 ```
 
 ## :mag_right: Preview
-![image](https://github.com/Silind/react-login-modal-sm/blob/master/preview.png)
+![image](https://raw.githubusercontent.com/Silind/react-login-modal-sm/master/preview.png)
 
 ## :memo: Documentation
 
