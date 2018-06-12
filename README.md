@@ -36,8 +36,8 @@ npm i react-sm-login-modal
 
 ### Custom labels
 #### Default
-```
-{
+```js
+labels={
   loginTitle: "Log in",
   signupTitle: "Create new user",
   forgotHeader: "Reset password",
