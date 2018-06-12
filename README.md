@@ -13,6 +13,7 @@ npm i react-sm-login-modal
 
 ### Run example
 ```sh
+# Start development server using create-react-app
 npm run example
 ```
 
@@ -78,7 +79,7 @@ npm run example
 import React, { Component } from "react";
 import LoginModal from "react-sm-login-modal";
 
-class App extends Component {
+export default class App extends Component {
   state = {
     showModal: false
   };
@@ -122,8 +123,6 @@ class App extends Component {
     );
   }
 }
-
-export default App;
 ```
 
 ## :question: Get Help
