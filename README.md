@@ -34,10 +34,11 @@ npm i react-sm-login-modal
 | `usernameRegex` | Regex that defines correct username format | `/^[a-zA-Z0-9_-]{5,}/` |
 | `passwordRegex` | Regex that defines correct password format | `/^[a-zA-Z0-9_@!#()]{8,}/` |
 
-### Custom labels (optional)
-| Prop name | Description | Default value |
-|-----------|-------------|---------------|
-| `labels` | Optional labels. Must be passed as an entire object. | 
+### Custom labels that can be passed via props (optional)
+| Prop name | Description |
+|-----------|-------------|
+| `labels` | Optional labels. Must be passed as an entire object |
+#### Default
 ```js
 labels={
   loginTitle: "Log in",
@@ -59,14 +60,59 @@ labels={
   orLabel: "or"
 }
 ``` 
-|
-
-
 
 ## :clipboard: Example
 
 ```js
+import React, { Component } from "react";
+import LoginModal from "react-sm-login-modal";
 
+class App extends Component {
+  state = {
+    showModal: false
+  };
+
+  toggleModal = () => {
+    this.setState({ showModal: !this.state.showModal });
+  };
+
+  handleLoginWithFacebook = () => {
+    // Do something when 'Login with Facebook' is clicked
+    console.log("Login with Facebook...");
+  };
+
+  handleSignupByEmail = () => {
+    // Do something when 'Signup by email' is clicked
+    console.log("Sign up by email...");
+  };
+
+  render() {
+    const customUsernameRegex = /^[a-zA-Z0-9_]{5,}/;
+
+    return (
+      <div className="App">
+        <h1>react-sm-login-modal example</h1>
+
+        <LoginModal
+          showModal={this.state.showModal}
+          toggleModal={this.toggleModal}
+          onLoginFacebook={this.handleLoginWithFacebook}
+          onSignupEmail={this.handleSignupByEmail}
+          usernameRegex={customUsernameRegex}
+        />
+
+        <button
+          className="test-btn btn btn-primary btn-lg"
+          onClick={this.toggleModal}
+        >
+          Log in
+        </button>
+      </div>
+    );
+  }
+}
+
+export default App;
 ```
 
 ## :question: Get Help

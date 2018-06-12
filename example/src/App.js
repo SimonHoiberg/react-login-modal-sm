@@ -21,7 +21,6 @@ class App extends Component {
   };
 
   render() {
-
     const customUsernameRegex = /^[a-zA-Z0-9_]{5,}/;
 
     return (
