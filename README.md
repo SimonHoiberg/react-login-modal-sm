@@ -27,15 +27,17 @@ npm i react-sm-login-modal
 | `onSignupEmail` | When user clicks on 'sign up with email' button. Passes (email, username, password) as parameters |
 | `onForgotPassword` | When user clicks on 'send new password' button. Passes (email) as parameter |
 
-### Regular expressions that can be passed via props (Optional)
+### Regular expressions that can be passed via props (optional)
 | Prop name | Description | Default value |
 |-----------|-------------|---------------|
 | `emailRegex` | Regex that defines correct email format | https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript |
 | `usernameRegex` | Regex that defines correct username format | `/^[a-zA-Z0-9_-]{5,}/` |
 | `passwordRegex` | Regex that defines correct password format | `/^[a-zA-Z0-9_@!#()]{8,}/` |
 
-### Custom labels
-#### Default
+### Custom labels (optional)
+| Prop name | Description | Default value |
+|-----------|-------------|---------------|
+| `labels` | Optional labels. Must be passed as an entire object. | 
 ```js
 labels={
   loginTitle: "Log in",
@@ -56,7 +58,10 @@ labels={
   forgotLink: "Forgot password?",
   orLabel: "or"
 }
-```
+``` 
+|
+
+
 
 ## :clipboard: Example
 
