@@ -30,7 +30,7 @@ npm i react-sm-login-modal
 ### Regular expressions that can be passed via props (Optional)
 | Prop name | Description | Default value |
 |-----------|-------------|---------------|
-| `emailRegex` | Regex that defines correct email format | `/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/` |
+| `emailRegex` | Regex that defines correct email format | https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript |
 | `usernameRegex` | Regex that defines correct username format | `/^[a-zA-Z0-9_-]{5,}/` |
 | `passwordRegex` | Regex that defines correct password format | `/^[a-zA-Z0-9_@!#()]{8,}/` |
 
