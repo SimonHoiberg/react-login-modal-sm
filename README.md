@@ -74,7 +74,7 @@ import LoginModal from "react-login-modal-sm";
 {
   loginTitle: "Log in",
   signupTitle: "Create new user",
-  forgotHeader: "Reset password",
+  forgotTitle: "Reset password",
   loginFacebookButton: "Log in with Facebook",
   loginGoogleButton: "Log in with Google",
   loginEmailButton: "Log in with email",

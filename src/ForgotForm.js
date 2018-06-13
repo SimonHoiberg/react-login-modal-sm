@@ -34,7 +34,7 @@ export default class ForgotForm extends Component {
 
     return (
       <div className={styles.forgotForm}>
-        <h1>{this.props.labels.forgotHeader}</h1>
+        <h1>{this.props.labels.forgotTitle}</h1>
 
         <input
           style={emailFocusStyle}
