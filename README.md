@@ -7,6 +7,8 @@ As can varies options for text and behavior.
 ## :mag_right: Preview
 ![image](https://raw.githubusercontent.com/Silind/react-login-modal-sm/master/preview.png)
 
+### Live example
+https://silind.github.io/react-login-modal-sm/
 
 ## :cloud: Installation
 
