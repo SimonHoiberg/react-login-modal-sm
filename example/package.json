@@ -11,7 +11,7 @@
     "react-login-modal-sm": "^1.0.5",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
